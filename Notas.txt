@@ -1,0 +1,24 @@
+**NOTAS DEL CURSO DE GIT*******
+
+git init            --> inicializa .git en el directorio
+git add _name_      --> archivo en estado staying = area de preparación
+git commit -m"Soy el primer commit"
+git show            --> Muestra el ultimo, y penultimo commit
+git log             --> Muestra todos los commit hechos con sus ids
+
+
+Ramas: dividir el código como doctor strange al saltar en lineas temporales
+
+**CÓMO VOLVER EN EL TIEMPO***
+CODE: git log 
+    Elegir el commit a volver, copiar su id 
+git reset xxxxxxxxxxxxxxxxxxxxxxxxxx_id --soft --- STAYING SIGUE DISPONIBLE
+git reset xxxxxxxxxxxxxxxxxxxxxxxxxx_id --hard -- TODO VUELVE A LA VERSION ANTERIOR
+
+--------------------
+
+git status          --> Verificar archivos trackeados, no agregados o modificados
+
+
+git diff            --> Compara cambios finales con el anterior
+git add 
