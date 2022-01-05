@@ -6,7 +6,7 @@ git commit -m"Soy el primer commit"
 git show            --> Muestra el ultimo, y penultimo commit
 git log             --> Muestra todos los commit hechos con sus ids
 
-
+ 
 Ramas: dividir el código como doctor strange al saltar en lineas temporales
 
 **CÓMO VOLVER EN EL TIEMPO***
@@ -22,3 +22,12 @@ git status          --> Verificar archivos trackeados, no agregados o modificado
 
 git diff            --> Compara cambios finales con el anterior
 git add 
+
+git checkout xxxxxxxxxxxxxxxxx_id nombreArchivo --> Volver a una versión anterior sobre tu archivo 
+git checkout master  --> Volver a la versión final
+
+git rm
+Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del sistema de versiones.
+
+git reset
+Este comando nos ayuda a volver en el tiempo. Pero no como git checkout que nos deja ir, mirar, pasear y volver. Con git reset volvemos al pasado sin la posibilidad de volver al futuro. Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
