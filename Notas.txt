@@ -31,3 +31,17 @@ Este comando nos ayuda a eliminar archivos de Git sin eliminar su historial del 
 
 git reset
 Este comando nos ayuda a volver en el tiempo. Pero no como git checkout que nos deja ir, mirar, pasear y volver. Con git reset volvemos al pasado sin la posibilidad de volver al futuro. Borramos la historia y la debemos sobreescribir. No hay vuelta atrás.
+
+***FLUJO DE TRABAJO*** // 14
+Directorio de Trabajo ---> git add 
+Preparación o Stagin  ---> git commit
+Repositorio Local     ---> git clone url 
+Repositorio Remote     ---> gitHub 
+
+Local a Remote ---> git push
+Remote a Local ---> git fetch > git merge = git pull
+
+
+***RAMAS*** // 15
+
+
