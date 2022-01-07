@@ -59,5 +59,7 @@ git merge es un commit a la rama donde haces la fusión
 En este caso git merge cabecera en la rama master
 git branch para saber en que rama estas
 
+Fusiona las ramas y combina el contenido de cabecera con el master
+
 
 
