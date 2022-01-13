@@ -61,5 +61,27 @@ git branch para saber en que rama estas
 
 Fusiona las ramas y combina el contenido de cabecera con el master
 
+**USO DE GITHUB** // 19
+user: hooliganspy
+
+Tener el .git 
+Crear origen remoto de nuestros archivos 
+git remote add origin *url http*
+
+git remote -v  ---> Ver urls
+fetch - traer  
+push - enviar
+
+git pull origin master -- Traer los datos 
+git push origin master -- Enviar todo los datos de la carpeta donde esta el .git
+
+Historia: es un grupo de commits
+
+Forzar pull 
+git pull origin master --allow-unrelated-histories
+
+La contraseña es el token generado en GitHub
+Token --> Settings --> Developer 
+
 
 
